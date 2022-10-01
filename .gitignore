@@ -29,4 +29,4 @@ Server/config.js
 
 server/static/*
 server/node_modules
-server/node_modules
+client/node_modules
