@@ -1,6 +1,5 @@
 import Admin from './pages/Admin';
-import Login from './pages/Login';
-import Registration from './pages/Registration';
+import Auth from './pages/Auth';
 import Basket from './pages/Basket';
 import Device from './pages/Device';
 import Shop from './pages/Shop';
@@ -20,8 +19,8 @@ export const authRrouter = [
 ];
 
 export const publickRouter = [
-    { path: LOGIN_ROUTE, Component: <Login/> },
-    { path: REGISTRATION_ROUTE, Component: <Registration/> },
+    { path: LOGIN_ROUTE, Component: <Auth/> },
+    { path: REGISTRATION_ROUTE, Component: <Auth/> },
     { path: SHOP_ROUTE, Component: <Shop/> },
     { path: DEVICE_ROUTE + '/:id', Component: <Device/> },
 ];
